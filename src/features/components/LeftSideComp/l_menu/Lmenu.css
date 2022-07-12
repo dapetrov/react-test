@@ -1,0 +1,49 @@
+.LMenuUl {
+  font: ubuntu;
+  margin: 0px;
+  padding: 0px;
+}
+.LMenuLi {
+  list-style-type: none;
+  margin: 20px 0px 0px 0px;
+  font-weight: bold;
+}
+.PLmenu a {
+  text-decoration: none;
+  color: black;
+}
+.PLmenu {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.Pblue {
+  color: #009eed;
+}
+@media screen and (max-device-width: 821px) {
+  .LMenu {
+    display: inline-block;
+  }
+  .LMenuLi {
+    display: inline-block;
+    padding-right: 20px;
+    margin: 0px;
+    font-size: large;
+  }
+}
+@media screen and (max-device-width: 376px) {
+  .LMenu {
+    display: inline-block;
+    width: 500px;
+  }
+  .LMenuLi {
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-device-width: 500px) {
+  .LMenuUl {
+    display: none;
+  }
+}

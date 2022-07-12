@@ -1,0 +1,22 @@
+.MmenuUL {
+  display: flex;
+  flex-direction: row;
+  padding: 0px;
+  margin: 0px;
+  font: ubuntu;
+}
+.MmenuUlLi {
+  display: inline-block;
+  margin: 0 80px 0 0px;
+  padding: 0px;
+  font: ubuntu;
+}
+.MmenuUlLi p {
+  margin: 0px;
+  padding: 0px;
+}
+.Line {
+  border-bottom: 2px solid black;
+  text-decoration: none;
+  padding-bottom: 4px;
+}
