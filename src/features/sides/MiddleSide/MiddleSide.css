@@ -1,7 +1,7 @@
 .MiddleSide {
   padding: 20px 0px 0px 40px;
 }
-@media (max-width: 821px) {
+@media (max-width: 1000px) {
   .MiddleSide {
     display: none;
   }

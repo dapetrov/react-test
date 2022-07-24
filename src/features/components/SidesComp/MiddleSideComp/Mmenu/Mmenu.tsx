@@ -38,6 +38,7 @@ export const Mmenu = () => {
     ['Пункт 2'],
     ['Пункт 3'],
     ['Пункт 4', 'в две строки'],
+    ['Профиль'],
   ];
   const Location = useLocation();
   const RenderParagraphOne = ParagraphOneString.map((paragraph, index) => (

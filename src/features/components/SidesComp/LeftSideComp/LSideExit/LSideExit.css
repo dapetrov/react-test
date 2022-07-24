@@ -1,13 +1,14 @@
 .LsideExitButton {
   padding-left: 200px;
 }
-@media screen and (min-device-width: 821px) {
+@media screen and (min-device-width: 1181px) {
   .LsideExitButton {
     display: none;
   }
 }
-@media screen and (max-device-width: 500px) {
+@media screen and (max-device-width: 1181px) {
   .LsideExitButton {
+    padding-top: 10px;
     padding-left: 2px;
   }
 }

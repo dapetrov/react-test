@@ -51,7 +51,7 @@
   }
 } */
 
-@media screen and (max-device-width: 821px) {
+@media screen and (max-device-width: 900px) {
   .Sides {
     display: block;
     max-width: 100%;

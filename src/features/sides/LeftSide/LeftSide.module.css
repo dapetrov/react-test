@@ -22,7 +22,7 @@
     max-width: 182px;
   }
 } */
-@media screen and (max-device-width: 821px) {
+@media screen and (max-device-width: 900px) {
   .LeftSideWrapper {
     padding: 0px;
     width: 0px;

@@ -19,7 +19,7 @@
 .Pblue {
   color: #009eed;
 }
-@media screen and (max-device-width: 821px) {
+@media screen and (max-device-width: 900px) {
   .LMenu {
     display: inline-block;
   }
@@ -40,6 +40,15 @@
     padding-right: 10px;
     margin: 0px;
     font-size: 12px;
+  }
+}
+@media screen and (max-device-width: 668px) {
+  .LMenuUl {
+    width: 500px;
+  }
+  .LMenuLi {
+    padding-left: 15px;
+    padding-right: 0px;
   }
 }
 @media screen and (max-device-width: 500px) {

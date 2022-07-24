@@ -25,6 +25,9 @@ export const BurgerMenu = () => {
             <p className='PLmenu'>В две строки</p>
           </li>
         </NavLink>
+        <NavLink to={`page5`}>
+          <li className='menu__item'>Профиль</li>
+        </NavLink>
       </ul>
     </nav>
   );
