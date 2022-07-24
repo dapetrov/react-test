@@ -39,6 +39,7 @@ const UserName: React.FC<{ oldname: string }> = ({ oldname }) => {
     return (
       <>
         <input
+          autoFocus
           type='text'
           defaultValue={name}
           onKeyDown={onPressEnter}
