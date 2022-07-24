@@ -93,7 +93,7 @@ export const Profile: React.FC = () => {
       name: 'Fedor',
       age: 18,
       number: '8-800-555-35-35',
-      address: 'г Казань, ул Братьев Касимовых, д 64',
+      address: 'г Казань, ул Братьев Касимовых, д 65',
     });
   }, []);
 
